@@ -10,7 +10,17 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    
+    background-color: #282c34;
+}
+
+nav a {
+    position: absolute;
+    left: 0;
+}
+
+nav svg {
+    height: 40px;
 }
 
 nav ul {
@@ -21,4 +31,9 @@ nav ul {
     text-transform: uppercase;
     margin: 0;
     padding: 0;
+}
+
+nav ul li {
+    text-decoration: underline;
+    cursor: pointer;
 }
