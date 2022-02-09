@@ -1,0 +1,34 @@
+.statistics {
+    display: grid;
+    grid-template-areas: 
+    " counter1 graph"
+    " counter2 graph";
+    grid-template-columns: 1fr 1fr;
+    padding: 3em 0;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.counter.one {
+    grid-area: counter1;
+    padding: 20px;
+}
+.counter.two {
+    grid-area: counter2;
+    padding: 20px;
+}
+.graph {
+    grid-area: graph;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter h3 {
+    margin: 0;
+}
+
+.counter p {
+    color: red;
+}

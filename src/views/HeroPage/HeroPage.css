@@ -1,0 +1,25 @@
+.hero-page {
+    min-height: 80vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://i.redd.it/p7g7pvtmt3kz.jpg');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3em;
+}
+
+.hero-page h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.red {
+    color: red;
+}
+.white {
+    color: white;
+}

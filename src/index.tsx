@@ -2,11 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './views/App/App';
+import Nav from './views/Navbar/Navbar';
+import HeroPage from './views/HeroPage/HeroPage';
+import Goals from './views/Goals/Goals'
+import Card from './views/Card/Card';
+import Statistics from './views/Stastistics/Statistics';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Nav />
+    <HeroPage />
+    <Goals />
+  
+    <Statistics />
   </React.StrictMode>,
   document.getElementById('root')
 );

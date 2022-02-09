@@ -12,3 +12,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.yellow {
+  color: #F0DD34;
+}
+.blue {
+  color: #00ADFF;
+}
+.green {
+  color: #0BD6BE;
+}
+.pink {
+  color: #F174E5;
+}
+.grey {
+  color: #CCCCCC;
+}

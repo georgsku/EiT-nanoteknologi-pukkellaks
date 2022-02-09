@@ -1,13 +1,68 @@
+
+@font-face {
+  font-family: 'Thunder';
+  src: url('./fonts/Web-PS/Thunder-HC.woff2') format('woff2'), /* Modern Browsers */
+       url('./fonts/Web-PS/Thunder-HC.otf') format('opentype'); /* Safari, Android, iOS */
+           font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'ThunderLight';
+  src: url('./fonts/Web-PS/Thunder-LightHC.woff2') format('woff2'), /* Modern Browsers */
+       url('./fonts/Web-PS/Thunder-LightHC.otf') format('opentype'); /* Safari, Android, iOS */
+           font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'ThunderMed';
+  src: url('./fonts/Web-PS/Thunder-MediumLC.woff2') format('woff2'), /* Modern Browsers */
+       url('./fonts/Web-PS/Thunder-MediumLC.otf') format('opentype'); /* Safari, Android, iOS */
+           font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Thunder';
+  src: url('./fonts/Web-PS/Thunder-BoldLC.woff2') format('woff2'), /* Modern Browsers */
+       url('./fonts/Web-PS/Thunder-BoldLC.otf') format('opentype'); /* Safari, Android, iOS */
+           font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
+a, button {
+  text-decoration: none;
+  outline: none;
+  font-family: 'Thunder', sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  background-color: #282c34;
+  color: white;
+  font-family: 'ThunderMed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+section {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+section.narrow {
+  max-width: 900px;
 }
