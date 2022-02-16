@@ -37,10 +37,10 @@
 }
 @keyframes bounce {
     from {
-        transform: translateY(0px);
+        transform: translate(-50%, 0px);
     }
     to {
-        transform: translateY(-15px);
+        transform: translate(-50%, -15px);
     }
 }
 
