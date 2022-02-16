@@ -1,7 +1,7 @@
 .hero-page {
     margin-top: 64px;
     min-height: 70vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://i.redd.it/p7g7pvtmt3kz.jpg');
+    background: linear-gradient( rgba(49, 68, 85, 0.9), rgba(49, 68, 85, 0.9) ), url('https://i.redd.it/p7g7pvtmt3kz.jpg');
     background-repeat: none;
     background-position: center;
     background-size: cover;
@@ -19,7 +19,7 @@
 }
 
 .red {
-    color: red;
+    color: var(--red);
 }
 .white {
     color: white;

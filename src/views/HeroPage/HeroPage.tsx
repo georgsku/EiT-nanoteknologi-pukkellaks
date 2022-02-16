@@ -1,4 +1,4 @@
-import './HeroPage.css';
+import './HeroPage.scss';
 
 function HeroPage() {
   return (

@@ -35,6 +35,14 @@
   text-rendering: optimizeLegibility;
 }
 
+:root {
+  --purple: #644E5B;
+  --pink: #9E5A63;
+  --red: #C96557;
+  --light-blue: #97AABD;
+  --blue: #314455;
+}
+
 a, button {
   text-decoration: none;
   outline: none;
@@ -44,7 +52,7 @@ a, button {
 body {
   margin: 0;
   padding: 0;
-  background-color: #282c34;
+  background-color: var(--blue);
   color: white;
   font-family: 'ThunderMed', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -65,6 +73,10 @@ section {
 
 section.narrow {
   max-width: 900px;
+}
+
+.luftig {
+  padding: 2em 0 ;
 }
 
 h1 {

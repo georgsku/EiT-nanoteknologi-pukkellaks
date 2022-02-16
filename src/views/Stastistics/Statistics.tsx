@@ -1,4 +1,4 @@
-import './Statistics.css';
+import './Statistics.scss';
 
 function Statistics() {
   return (
