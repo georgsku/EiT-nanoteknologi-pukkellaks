@@ -16,8 +16,8 @@ function Statistics() {
         </div>
         <div className="graph">
           <h3>Fisker graf</h3>
-            <img className='popup' src={layer1} alt="" />
-            <img className='popup' src={layer2} alt="" />
+          <img className='movein' src={layer1} alt="" />
+          <img className='movein' src={layer2} alt="" />
         </div>
     </section>
   );

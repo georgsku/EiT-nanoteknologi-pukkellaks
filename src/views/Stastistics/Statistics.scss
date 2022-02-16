@@ -39,6 +39,19 @@ img {
     width: 80%;
 }
 
+.movein {
+    transform-origin: bottom;
+    animation: movein 0.5s linear;
+    animation-iteration-count: 1;
+    
+}
+
+@keyframes movein {
+    0% {clip-path: inset(0 100% 0 0);}
+    100% {clip-path: inset(0 0% 0 0);}
+}
+
+
 .popup {
     transform: scaleY(0);
     animation: pop 0.35s ease-in-out forwards;
