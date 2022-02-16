@@ -10,7 +10,7 @@ function Statistics() {
       <div className="statistics">
         <div className="counter one">
             <h3>Antall drept</h3>
-            <p>40721</p>
+            <p>125629</p>
         </div>
         <div className="counter two">
             <h3>Antall igjen</h3>
