@@ -4,9 +4,9 @@
     " counter1 graph"
     " counter2 graph";
     grid-template-columns: 1fr 1fr;
-    padding: 3em 0;
     text-align: center;
     font-size: 1.4em;
+
 }
 
 .counter.one {
@@ -22,6 +22,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    &:hover {
+        .popup {
+            animation: pop 0.35s ease-in-out forwards;
+        }
+    }
 }
 
 .counter h3 {
@@ -40,8 +45,6 @@ img {
 }
 
 .popup {
-    transform: scaleY(0);
-    animation: pop 0.35s ease-in-out forwards;
     transform-origin: bottom;
 }
 

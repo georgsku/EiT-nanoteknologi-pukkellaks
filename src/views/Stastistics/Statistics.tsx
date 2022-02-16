@@ -4,8 +4,18 @@ import layer2 from '../../svg/Layer_2.svg'
 import background from '../../svg/Background_1.svg'
 
 function Statistics() {
+
+  const numbers = ["1042214", "14521"]
+
+  function countUp() {
+
+  }
+
+
   return (
-    <section className='statistics narrow'>
+    <section className='narrow center luftig'>
+      <h1 className=''>Statistikk</h1>
+      <div className="statistics">
         <div className="counter one">
             <h3>Antall drept</h3>
             <p>40721</p>
@@ -19,6 +29,7 @@ function Statistics() {
             <img className='popup' src={layer1} alt="" />
             <img className='popup' src={layer2} alt="" />
         </div>
+      </div>
     </section>
   );
 }

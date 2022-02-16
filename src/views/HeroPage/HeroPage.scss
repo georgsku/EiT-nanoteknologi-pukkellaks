@@ -1,6 +1,5 @@
 .hero-page {
-    margin-top: 64px;
-    min-height: 70vh;
+    min-height: calc(100vh - 8em);
     background: linear-gradient( rgba(49, 68, 85, 0.9), rgba(49, 68, 85, 0.9) ), url('https://i.redd.it/p7g7pvtmt3kz.jpg');
     background-repeat: none;
     background-position: center;
@@ -11,6 +10,18 @@
     justify-content: center;
     align-items: flex-start;
     padding: 3em;
+    padding-top: 5em;
+    position: relative;
+
+    img.svg {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        animation: bounce 1s infinite alternate;
+        cursor: pointer;
+    }
 }
 
 .hero-page h1 {
@@ -24,3 +35,12 @@
 .white {
     color: white;
 }
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+
