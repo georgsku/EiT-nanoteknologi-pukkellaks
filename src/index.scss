@@ -43,6 +43,10 @@
   --blue: #314455;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a, button {
   text-decoration: none;
   outline: none;
@@ -73,6 +77,9 @@ section {
 
 section.narrow {
   max-width: 900px;
+}
+section.center {
+  text-align: center;
 }
 
 .luftig {
