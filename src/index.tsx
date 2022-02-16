@@ -4,7 +4,6 @@ import './index.scss';
 import Nav from './views/Navbar/Navbar';
 import HeroPage from './views/HeroPage/HeroPage';
 import Goals from './views/Goals/Goals'
-import Scene from './views/Canvas/Canvas'
 import Statistics from './views/Stastistics/Statistics';
 import reportWebVitals from './reportWebVitals';
 

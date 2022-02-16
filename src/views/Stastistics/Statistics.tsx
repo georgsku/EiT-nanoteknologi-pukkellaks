@@ -1,16 +1,8 @@
 import './Statistics.scss';
 import layer1 from '../../svg/Layer_1.svg'
 import layer2 from '../../svg/Layer_2.svg'
-import background from '../../svg/Background_1.svg'
 
 function Statistics() {
-
-  const numbers = ["1042214", "14521"]
-
-  function countUp() {
-
-  }
-
 
   return (
     <section className='narrow center luftig'>
