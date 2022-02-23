@@ -24,7 +24,6 @@ function playSound(event: any) {
 }
 
 function blueFishClicked() {
-  const el = document.getElementById("blueFish")
   window.alert("Vi dreper ikke vanlig fisk, bare pukkelaks")
 }
 
