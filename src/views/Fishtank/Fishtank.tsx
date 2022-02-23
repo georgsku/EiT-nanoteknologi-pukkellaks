@@ -5,7 +5,6 @@ import flower from '../../svg/flowers.svg'
 import flower2 from '../../svg/flower6.svg'
 import flower3 from '../../svg/flower3.svg'
 import expolosion from '../../images/explosion.png'
-import { countReset } from 'console';
 
 const pew = require("../../sounds/Pew.mp3");
 let counter = 0
