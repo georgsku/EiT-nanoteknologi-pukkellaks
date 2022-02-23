@@ -6,7 +6,6 @@ function Statistics() {
 
   return (
     <section className='narrow center luftig'>
-      <h1 className=''>Statistikk</h1>
       <div className="statistics">
         <div className="counter one">
             <h3>Antall drept</h3>
@@ -17,7 +16,8 @@ function Statistics() {
             <p>10248192</p>
         </div>
         <div className="graph">
-          <h3>Fisker graf</h3>
+          <p className="red">Antall pukkelaks drept</p>
+          <p className="blue">Antall fisk drept</p>
           <img className='movein' src={layer1} alt="" />
           <img className='movein' src={layer2} alt="" />
         </div>

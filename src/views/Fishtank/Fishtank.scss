@@ -1,0 +1,167 @@
+section.fishtank {
+  height: 40vh;
+  background-color: var(--blue);
+  position: relative;
+
+  img.left {
+    height: 300px;
+    width: auto;
+    left: 0;
+    bottom: 0;
+  }
+  img.center {
+    height: 300px;
+    width: auto;
+    left: 40%;
+    bottom: 0;
+  }
+  img.right {
+    height: 300px;
+    width: auto;
+    left: 80%;
+    bottom: 0;
+  }
+
+  img.fish {
+    height: 40px;
+    width: auto;
+    left: -10%;
+    animation: swim 20s infinite linear, bounce 2s infinite;
+  }
+  img.fish.blue {
+    height: 40px;
+    width: auto;
+    right: -10%;
+    transform: scale(-1, 1);
+    animation: swim 20s infinite reverse linear, bounceBlue 2s infinite;
+  }
+  img.fish.one {
+    bottom: 60px;
+  }
+  img.fish.two {
+    bottom: 70px;
+    animation-delay: 0.4s;
+  }
+  img.fish.three {
+    bottom: 50px;
+    animation-delay: 0.3s;
+  }
+  img.fish.four {
+    bottom: 60px;
+    animation-delay: 0.8s;
+  }
+
+  img.fish.blue.one {
+    bottom: 90px;
+  }
+  img.fish.blue.two {
+    bottom: 100px;
+    animation-delay: 0.4s;
+  }
+  img.fish.blue.three {
+    bottom: 80px;
+    animation-delay: 0.3s;
+  }
+  img.fish.blue.four {
+    bottom: 90px;
+    animation-delay: 0.8s;
+  }
+
+  img.fish.one.late {
+    bottom: 180px;
+    animation-delay: 5.8s;
+  }
+  img.fish.two.late {
+    bottom: 190px;
+    animation-delay: 6.2s;
+  }
+  img.fish.three.late {
+    bottom: 170px;
+    animation-delay: 6.1s;
+  }
+  img.fish.four.late {
+    bottom: 180px;
+    animation-delay: 6.6s;
+  }
+
+  img.fish.one.late2 {
+    bottom: 140px;
+    animation-delay: 11.8s;
+  }
+  img.fish.two.late2 {
+    bottom: 150px;
+    animation-delay: 12.2s;
+  }
+  img.fish.three.late2 {
+    bottom: 140px;
+    animation-delay: 12.1s;
+  }
+  img.fish.four.late2 {
+    bottom: 150px;
+    animation-delay:12.6s;
+  }
+
+  img.fish.one.late3 {
+    bottom: 20px;
+    animation-delay: 16.8s;
+  }
+  img.fish.two.late3 {
+    bottom: 30px;
+    animation-delay: 17.2s;
+  }
+  img.fish.three.late3 {
+    bottom: 10px;
+    animation-delay: 17.1s;
+  }
+  img.fish.four.late3 {
+    bottom: 20px;
+    animation-delay:17.6s;
+  }
+}
+
+@keyframes bounce {
+  0%, 50%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+@keyframes bounceBlue {
+  0%, 50%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0) scaleX(-1);
+  }
+  25% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px) scaleX(-1);
+  }
+  75% {
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px) scaleX(-1);
+  }
+}
+
+@keyframes swim
+{
+	0% {margin-left: -35px}
+	100% {margin-left: 110%;}
+}

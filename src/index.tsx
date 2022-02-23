@@ -5,6 +5,8 @@ import Nav from './views/Navbar/Navbar';
 import HeroPage from './views/HeroPage/HeroPage';
 import Goals from './views/Goals/Goals'
 import Statistics from './views/Stastistics/Statistics';
+import Footer from './views/Footer/Footer';
+import Fishtank from './views/Fishtank/Fishtank';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -13,6 +15,8 @@ ReactDOM.render(
     <HeroPage />
     <Goals />
     <Statistics />
+    <Fishtank />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
