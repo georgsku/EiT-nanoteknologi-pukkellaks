@@ -1,5 +1,5 @@
 import './Fishtank.scss';
-import fish from '../../svg/Fish.svg'
+import fish from '../../svg/FishRed.svg'
 import fishBlue from '../../svg/FishBlue.svg'
 import flower from '../../svg/flowers.svg'
 import flower2 from '../../svg/flower6.svg'
