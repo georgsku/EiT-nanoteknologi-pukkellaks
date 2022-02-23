@@ -19,7 +19,7 @@
         left: 50%;
         transform: translateX(-50%);
         width: 40px;
-        animation: bounce 1s infinite alternate;
+        animation: bounceArrow 1s infinite alternate;
         cursor: pointer;
     }
 }
@@ -35,7 +35,7 @@
 .white {
     color: white;
 }
-@keyframes bounce {
+@keyframes bounceArrow {
     from {
         transform: translate(-50%, 0px);
     }
