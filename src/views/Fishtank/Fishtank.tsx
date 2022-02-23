@@ -4,16 +4,23 @@ import fishBlue from '../../svg/FishBlue.svg'
 import flower from '../../svg/flowers.svg'
 import flower2 from '../../svg/flower6.svg'
 import flower3 from '../../svg/flower3.svg'
+import expolosion from '../../images/explosion.png'
+import { countReset } from 'console';
 
 const pew = require("../../sounds/Pew.mp3");
+let counter = 0
 
 
 function playSound(event: any) {
   const audio = new Audio(pew);
   audio.play();
+  event.target.src = expolosion
+  setTimeout(() => event.target.remove(), 300)
 
-  event.target.remove()
-  
+  counter++
+  const el = document.getElementById("counter")
+  if (!el) return
+  el.innerHTML = `ANTALL PUKKELLAKS DREPT: ${counter}`
 }
 
 function blueFishClicked() {
@@ -24,7 +31,7 @@ function blueFishClicked() {
 function Goals() {
   return (
     <section className='fishtank luftig'>
-      <p id="blueFish"></p>
+      <p id="counter"></p>
       <img onClick={playSound} className="fish one" src={fish} alt="" />
       <img onClick={playSound} className="fish two" src={fish} alt="" />
       <img onClick={playSound} className="fish three" src={fish} alt="" />

@@ -3,6 +3,11 @@ section.fishtank {
   background-color: var(--blue);
   position: relative;
 
+  #counter {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+
   img.left {
     height: 300px;
     width: auto;
