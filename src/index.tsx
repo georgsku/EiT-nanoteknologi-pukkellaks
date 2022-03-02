@@ -7,6 +7,7 @@ import Goals from './views/Goals/Goals'
 import Statistics from './views/Stastistics/Statistics';
 import Footer from './views/Footer/Footer';
 import Fishtank from './views/Fishtank/Fishtank';
+import Refrences from './views/Refrences/Refrences';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
     <HeroPage />
     <Goals />
     <Statistics />
+    <Refrences />
     <Fishtank />
     <Footer />
   </React.StrictMode>,

@@ -48,9 +48,13 @@ html {
 }
 
 a, button {
-  text-decoration: none;
   outline: none;
-  font-family: 'Thunder', sans-serif;
+  font-family: 'ThunderMed', sans-serif;
+}
+
+a {
+  color: white;
+  font-size: 18px;
 }
 
 body {
@@ -62,6 +66,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 code {
@@ -78,6 +83,9 @@ section {
 section.narrow {
   max-width: 900px;
 }
+section.super-narrow {
+  max-width: 600px;
+}
 section.center {
   text-align: center;
 }
@@ -88,4 +96,16 @@ section.center {
 
 h1 {
   font-size: 2em;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.column {
+  flex-direction: column;
+}
+
+.flex.center {
+  justify-content: center;
 }
