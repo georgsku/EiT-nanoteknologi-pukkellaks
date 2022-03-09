@@ -1,26 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import Nav from './views/Navbar/Navbar';
-import HeroPage from './views/HeroPage/HeroPage';
-import Goals from './views/Goals/Goals'
-import Statistics from './views/Stastistics/Statistics';
-import Footer from './views/Footer/Footer';
-import Fishtank from './views/Fishtank/Fishtank';
-import Refrences from './views/Refrences/Refrences';
-import AboutUs from './views/AboutUs/AboutUs';
+import SlideShow from './views/SlideShow/SlideShow';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nav />
-    <HeroPage />
-    <Goals />
-    <Statistics />
-    <Refrences />
-    <AboutUs />
-    <Fishtank />
-    <Footer />
+    <SlideShow />
   </React.StrictMode>,
   document.getElementById('root')
 );

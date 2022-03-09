@@ -5,8 +5,8 @@ import layer2 from '../../svg/Layer_2.svg'
 function Statistics() {
 
   return (
-    <section className='narrow center luftig'>
-      <div className="statistics">
+    <section className='panels'>
+      <div className="main-panel statistics">
         <div className="counter one">
             <h3>Antall drept</h3>
             <p>125629</p>

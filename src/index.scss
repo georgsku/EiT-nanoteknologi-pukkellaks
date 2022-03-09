@@ -69,12 +69,6 @@ body {
   overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-
 section {
   margin: 0 auto;
   max-width: 1500px;
@@ -107,5 +101,72 @@ h1 {
 }
 
 .flex.center {
+  justify-content: center;
+}
+
+
+.link {
+  text-decoration: underline;
+  position: relative;
+  cursor: pointer;
+
+  &:hover::after {
+    content: "Anneli Kalliainen Kyrrø​, (2001) 'A boring book about accounting' https://www.merchantmaverick.com/wp-content/uploads/2016/08/bigstock-ACCOUNTING-inscription-coming-324977827.jpg";
+    position: absolute;
+    bottom: 105%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--blue);
+    border-radius: 5px;
+    border: 1px solid var(--purple);
+    padding: 5px;
+    min-width: 300px;
+    box-shadow: 5px 5px 4px 0px #314455;
+  }
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.fadeIn {
+  animation: fadeIn 0.3s ease-in;
+}
+.fadeOut {
+  animation: fadeOut 0.3s ease-in;
+}
+
+.panels {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-panel {
+  grid-column: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
