@@ -29,11 +29,11 @@ function SlideShow() {
   
 
   slideShow?.addEventListener("animationend", (e: any) => {
-    if (e.animationName == "fadeOut") {
+    if (e.animationName === "fadeOut") {
       setSlide(tmpSlide)
       slideShow?.classList.remove("fadeOut")
       slideShow?.classList.add("fadeIn")
-    } else if (e.animationName == "fadeIn") {
+    } else if (e.animationName === "fadeIn") {
       slideShow?.classList.remove("fadeIn")
     }
   })
@@ -64,13 +64,13 @@ function SlideShow() {
         }
       })()}
       <div className="bottom-bar">
-        { slide != 0 ? <img className="next" src={arrowLeft} onClick={() => switchSlide(slide - 1)}></img> : <button style={{opacity: "0"}}></button>}
+        { slide !== 0 ? <img className="next" alt="" src={arrowLeft} onClick={() => switchSlide(slide - 1)}></img> : <button style={{opacity: "0"}}></button>}
         <div className="progress-bar">
           {[...Array(6)].map((x, i) =>
-            <div onClick={() => switchSlide(i)} className="progress" style={i == slide ? { backgroundColor: "var(--pink)"} : {}}></div>
+            <div onClick={() => switchSlide(i)} className="progress" style={i === slide ? { backgroundColor: "var(--pink)"} : {}}></div>
           )}
         </div>
-        { slide != 5 ? <img className="next" src={arrowRight} onClick={() => switchSlide(slide + 1)}></img> : <button style={{opacity: "0"}}></button>}
+        { slide !== 5 ? <img className="next" alt="" src={arrowRight} onClick={() => switchSlide(slide + 1)}></img> : <button style={{opacity: "0"}}></button>}
       </div>
     </section>
   );
