@@ -8,6 +8,7 @@ import Statistics from './views/Stastistics/Statistics';
 import Footer from './views/Footer/Footer';
 import Fishtank from './views/Fishtank/Fishtank';
 import Refrences from './views/Refrences/Refrences';
+import AboutUs from './views/AboutUs/AboutUs';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Goals />
     <Statistics />
     <Refrences />
+    <AboutUs />
     <Fishtank />
     <Footer />
   </React.StrictMode>,
