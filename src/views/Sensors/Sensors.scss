@@ -1,0 +1,187 @@
+section.sensors {
+
+  .right-panel {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .animation-container {
+    width: 600px;
+    height: 400px;
+    border-bottom: 4px solid var(--purple);
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: visible;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 600px;
+      bottom: -14px;
+      height: 10px;
+      background-color: var(--blue);
+    }
+  }
+
+  .tube {
+    width: 250px;
+    height: 130px;
+    border-top: 2px solid var(--red);
+    border-bottom: 2px solid var(--red);
+    position: absolute;
+    bottom: 160px;
+    right: 100px;
+  }
+  .kjetting {
+    position: absolute;
+    bottom: 290px;
+    right: 130px;
+
+    z-index: 1;
+  }
+
+  .sensor-blocker {
+    position: absolute;
+    width: 256px;
+    height: 130px;
+    bottom: 160px;
+    right: 100px;
+
+    &::after{
+      content: "";
+      position: absolute;
+      background-color: var(--blue);
+      width: 350px;
+      height: 100px;
+      left: -50px;
+      top: 100%;
+    }
+    &::before{
+      content: "";
+      position: absolute;
+      background-color: var(--blue);
+      width: 350px;
+      height: 100px;
+      left: -50px;
+      bottom: 134px;
+    }
+  }
+
+  .sensor {
+    position: absolute;
+    bottom: 0;
+
+    &::before {
+      position: absolute;
+      background: var(--red);
+      margin-left: -25px;
+      margin-top: -25px;
+      width: 50px;
+      height: 50px;
+      content: "";
+      display: block;
+      border-radius: 50%;
+      animation: wave-animate 3s 1.5s infinite ease-out
+    }
+    &::after {
+      position: absolute;
+      background: var(--red);
+      margin-left: -25px;
+      margin-top: -25px;
+      width: 50px;
+      height: 50px;
+      content: "";
+      display: block;
+      border-radius: 50%;
+      animation: wave-animate 3s infinite ease-out
+    }
+
+    &.top {top: 0;}
+    &.left {left: 20%;}
+    &.right {right: 20%;}
+    &.bottom {bottom: 0;}
+  }
+  
+  img {
+    position: absolute;
+    height: 100px;
+    width: auto;
+    bottom: 0;
+    user-select: none;
+
+    &.left {
+      left: 0;
+    }
+    &.center {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &.right {
+      left: unset;
+      right: 0;
+    }
+
+    &.stones {
+      height: 40px;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      z-index: -1;
+    }
+  }
+
+  img.fish.red {
+    opacity: 0;
+    height: 40px;
+    width: auto;
+    left: -10%;
+    bottom: 200px;
+    animation: swim 20s 9.3s infinite linear, bounce 2s infinite;
+  }
+  img.fish.blue {
+    height: 40px;
+    width: auto;
+    left: -10%;
+    bottom: 200px;
+    animation: swim 20s infinite linear, bounce 2s infinite;
+  }
+}
+
+@keyframes wave-animate {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+    transform-origin: center;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+    transform-origin: center;
+  }
+}
+
+@keyframes bounce {
+  0%, 50%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes swim
+{
+	0% {margin-left: 0px; opacity: 1;}
+	100% {margin-left: 100%; opacity: 1;}
+}

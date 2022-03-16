@@ -1,13 +1,7 @@
-.root {
-  text-align: center;
-
-}
-
 .AboutUs { 
   display: grid;
+  text-align: center;
   justify-content: center;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(2, .2fr);
   column-gap: 2em;
   
   div:last-child {

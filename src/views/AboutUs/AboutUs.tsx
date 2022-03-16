@@ -11,21 +11,23 @@ function AboutUs() {
     {navn: "Zaim⭐", desc: "4 klasse datateknologi. Elsker sushi"},
   ]
   return (
-    <div className='root'>
-      <h2>Om oss</h2>
-      <div className="AboutUs">
-        {
-          info.map((i) => 
-          <div>
-              <h3>
-                {i.navn}
-              </h3>
-              <p>
-                {i.desc}
-              </p>
-            </div>
-          )
-        }
+    <div className='panels'>
+      <div className="main-panel">
+        <h2>Om oss</h2>
+        <div className="AboutUs">
+          {
+            info.map((i) => 
+            <div>
+                <h3>
+                  {i.navn}
+                </h3>
+                <p>
+                  {i.desc}
+                </p>
+              </div>
+            )
+          }
+        </div>
       </div>
     </div>
   );

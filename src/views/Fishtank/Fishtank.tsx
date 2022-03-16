@@ -26,7 +26,7 @@ function blueFishClicked() {
   window.alert("Vi dreper ikke vanlig fisk, bare pukkelaks")
 }
 
-function Goals() {
+function Fishtank() {
   return (
     <section className='fishtank luftig'>
       <p id="counter"></p>
@@ -62,4 +62,4 @@ function Goals() {
   );
 }
 
-export default Goals;
+export default Fishtank;

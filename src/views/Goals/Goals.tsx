@@ -8,9 +8,6 @@ function Goals() {
           <p>Redusere negative virkninger av russisk pukkellaks invasjon i norske vassdrag <span className='link'>(2001, georg)</span></p>
           <h1 id="problem">Hva er problemet?</h1>
           <h1 id="why" >Hvorfor pukkellaks?</h1>
-          <h1 id='theory'>Teori</h1>
-            <h2>Biologisk løsning?</h2>
-            <h2>Sensor løsning?</h2>
           <h1 id='conlusion' >Konklusjon</h1>
       </div>
       <div className="right-panel">
