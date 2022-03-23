@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import SlideShow from './views/SlideShow/SlideShow';
 import HeroPage from './views/HeroPage/HeroPage';
 import Goals from './views/Goals/Goals'
 import Refrences from './views/Refrences/Refrences';

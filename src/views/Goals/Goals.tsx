@@ -1,5 +1,4 @@
 import './Goals.scss';
-import blob from '../../svg/blob.svg'
 
 function Goals() {
   return (
