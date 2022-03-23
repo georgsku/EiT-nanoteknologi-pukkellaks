@@ -6,12 +6,12 @@ section.sensors {
   }
 
   .animation-container {
+    overflow-y: hidden;
     width: 640px;
     height: 400px;
     border-bottom: 4px solid var(--purple);
     position: relative;
     &::after {
-      content: "";
       position: absolute;
       width: 640px;
       bottom: -14px;
@@ -21,6 +21,8 @@ section.sensors {
   }
 
   .tube {
+    overflow-y: hidden;
+    overflow-x: visible;
     width: 250px;
     height: 130px;
     border-top: 2px solid var(--red);
@@ -45,18 +47,16 @@ section.sensors {
     right: 100px;
 
     &::after{
-      content: "";
       position: absolute;
-      background-color: var(--blue);
+      background-color: #283846;
       width: 350px;
       height: 100px;
       left: -50px;
       top: 100%;
     }
     &::before{
-      content: "";
       position: absolute;
-      background-color: var(--blue);
+      background-color: #283744;
       width: 350px;
       height: 100px;
       left: -50px;

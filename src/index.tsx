@@ -11,6 +11,7 @@ import Footer from './views/Footer/Footer';
 import AboutUs from './views/AboutUs/AboutUs';
 import reportWebVitals from './reportWebVitals';
 import Fishtank from './views/Fishtank/Fishtank';
+import bubble from './svg/bubble.svg';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,13 @@ ReactDOM.render(
     <Refrences></Refrences>
     <Fishtank></Fishtank>
     <Footer></Footer>
+    <img className='bubble' src={bubble} alt="" style={{left: "150px", animationDelay: "1s",}}/>
+    <img className='bubble' src={bubble} alt="" style={{left: "130px", animationDelay: "0.4s"}}/>
+    <img className='bubble' src={bubble} alt="" style={{left: "200px"}} />
+
+    <img className='bubble' src={bubble} alt="" style={{right: "150px", animationDelay: "11s",}}/>
+    <img className='bubble' src={bubble} alt="" style={{right: "130px", animationDelay: "10.4s"}}/>
+    <img className='bubble' src={bubble} alt="" style={{right: "200px", animationDelay: "10s",}}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

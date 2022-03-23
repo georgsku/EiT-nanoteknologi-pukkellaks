@@ -47,6 +47,10 @@ html {
   scroll-behavior: smooth;
 }
 
+#root {
+  position: relatives;
+}
+
 a, button {
   outline: none;
   font-family: 'ThunderMed', sans-serif;
@@ -60,13 +64,15 @@ a {
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--blue);
+  //background-color: var(--blue);
+  background: linear-gradient(#314455, #1e2a34);
   color: white;
   font-family: 'ThunderMed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
   overflow-x: hidden;
+  position: relative;
 }
 p {
   font-size: 16px;
@@ -178,4 +184,17 @@ h1 {
 .place-center {
   align-items: center;
   justify-content: center;
+}
+
+.bubble {
+  z-index: 100;
+  position: absolute;
+  width: 20px;
+  bottom: -20px;
+  animation: bubbleUp 20s infinite linear;
+}
+
+@keyframes bubbleUp {
+  0% {margin-bottom: -20px;}
+  100% {margin-bottom: 100%;}
 }
