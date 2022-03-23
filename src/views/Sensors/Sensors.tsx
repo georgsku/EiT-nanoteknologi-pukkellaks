@@ -10,11 +10,8 @@ import flower3 from '../../svg/flower3.svg'
 function Sensors() {
 
   return (
-    <section className="sensors panels">
+    <section className="sensors panels luftig">
       <div className="left-panel">
-        <h1>Kan sensorer detektere pukkellaks?</h1>
-      </div>
-      <div className="right-panel">
         <div className="animation-container">
 
           <img className='fish red' src={fish} alt="" />
@@ -36,8 +33,14 @@ function Sensors() {
           <img className="stones" src={stones} alt="" style={{transform: "translateX(100%)"}}/>
 
           <img className="kjetting" src={kjetting} alt="" style={{}}/>
-          <img className="kjetting" src={kjetting} alt="" style={{left: "290px"}}/>
+          <img className="kjetting" src={kjetting} alt="" style={{left: "330px"}}/>
         </div>
+      </div>
+      <div className="right-panel">
+        <h1>Kan sensorer detektere pukkellaks?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maxime nemo quis, iste possimus, nisi voluptas ab laborum quisquam quos pariatur autem consequatur voluptate excepturi eius ullam voluptatem quia beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maxime nemo quis, iste possimus, nisi voluptas ab laborum quisquam quos pariatur autem consequatur voluptate excepturi eius ullam voluptatem quia beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maxime nemo quis, iste possimus, nisi voluptas ab laborum quisquam quos pariatur autem consequatur voluptate excepturi eius ullam voluptatem quia beatae?</p>
       </div>
     </section>
   );

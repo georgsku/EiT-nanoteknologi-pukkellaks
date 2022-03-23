@@ -50,7 +50,7 @@ function Refrences() {
   ]
 
   return (
-    <section id="ref" className='refrences super-narrow'>
+    <section id="ref" className='refrences luftig super-narrow'>
       <h1>Referanser</h1>
       {refrences.map(ref => (
         <p>

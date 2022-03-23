@@ -2,6 +2,7 @@ section.fishtank {
   height: 40vh;
   background-color: var(--blue);
   position: relative;
+  margin-bottom: 30px;
 
   #counter {
     font-size: 20px;
@@ -13,18 +14,21 @@ section.fishtank {
     width: auto;
     left: 0;
     bottom: 0;
+    position: absolute;
   }
   img.center {
     height: 300px;
     width: auto;
     left: 40%;
     bottom: 0;
+    position: absolute;
   }
   img.right {
     height: 300px;
     width: auto;
     left: 80%;
     bottom: 0;
+    position: absolute;
   }
 
   img.fish {
@@ -33,6 +37,7 @@ section.fishtank {
     left: -10%;
     animation: swim 20s infinite linear, bounce 2s infinite;
     user-select: none;
+    position: absolute;
   }
   img.fish.blue {
     height: 40px;
@@ -43,85 +48,85 @@ section.fishtank {
     user-select: none;
   }
   img.fish.one {
-    bottom: 60px;
+    bottom: 90px;
   }
   img.fish.two {
-    bottom: 70px;
+    bottom: 100px;
     animation-delay: 0.4s;
   }
   img.fish.three {
-    bottom: 50px;
+    bottom: 80px;
     animation-delay: 0.3s;
   }
   img.fish.four {
-    bottom: 60px;
+    bottom: 90px;
     animation-delay: 0.8s;
   }
 
   img.fish.blue.one {
-    bottom: 90px;
+    bottom: 120px;
   }
   img.fish.blue.two {
-    bottom: 100px;
+    bottom: 130px;
     animation-delay: 0.4s;
   }
   img.fish.blue.three {
-    bottom: 80px;
+    bottom: 110px;
     animation-delay: 0.3s;
   }
   img.fish.blue.four {
-    bottom: 90px;
+    bottom: 120px;
     animation-delay: 0.8s;
   }
 
   img.fish.one.late {
-    bottom: 180px;
+    bottom: 210px;
     animation-delay: 5.8s;
   }
   img.fish.two.late {
-    bottom: 190px;
+    bottom: 220px;
     animation-delay: 6.2s;
   }
   img.fish.three.late {
-    bottom: 170px;
+    bottom: 200px;
     animation-delay: 6.1s;
   }
   img.fish.four.late {
-    bottom: 180px;
+    bottom: 210px;
     animation-delay: 6.6s;
   }
 
   img.fish.one.late2 {
-    bottom: 140px;
+    bottom: 170px;
     animation-delay: 11.8s;
   }
   img.fish.two.late2 {
-    bottom: 150px;
+    bottom: 180px;
     animation-delay: 12.2s;
   }
   img.fish.three.late2 {
-    bottom: 140px;
+    bottom: 170px;
     animation-delay: 12.1s;
   }
   img.fish.four.late2 {
-    bottom: 150px;
+    bottom: 180px;
     animation-delay:12.6s;
   }
 
   img.fish.one.late3 {
-    bottom: 20px;
+    bottom: 50px;
     animation-delay: 16.8s;
   }
   img.fish.two.late3 {
-    bottom: 30px;
+    bottom: 60px;
     animation-delay: 17.2s;
   }
   img.fish.three.late3 {
-    bottom: 10px;
+    bottom: 40px;
     animation-delay: 17.1s;
   }
   img.fish.four.late3 {
-    bottom: 20px;
+    bottom: 50px;
     animation-delay:17.6s;
   }
 }
@@ -165,6 +170,7 @@ section.fishtank {
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px) scaleX(-1);
   }
+
 }
 
 @keyframes swim

@@ -1,11 +1,48 @@
 .AboutUs { 
   display: grid;
   text-align: center;
-  justify-content: center;
-  column-gap: 2em;
-  
+  grid-template-columns: repeat(4, 1fr);
+
   div:last-child {
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+  }
+  
+  .about-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    
+    img {
+      transition: transform 0.25s;
+      position: absolute;
+      z-index: -1;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    p {
+      width: 200px;
+      display: none;
+      transition: height 0.25s;
+    }
+
+    &:hover, &:focus {
+      img {
+        transform: scale(1.4) rotate(90deg);
+      }
+      p {
+        display: block;
+      }
+    }
   }
 }

@@ -78,10 +78,14 @@ section {
   max-width: 1500px;
 }
 
+div.auto-center {
+  margin: 0 auto;
+}
+
 section.narrow {
   max-width: 900px;
 }
-section.super-narrow {
+section.super-narrow, div.super-narrow {
   max-width: 600px;
 }
 section.center {
@@ -89,7 +93,7 @@ section.center {
 }
 
 .luftig {
-  padding: 2em 0 ;
+  padding: 3em 0 ;
 }
 
 h1 {
@@ -157,7 +161,7 @@ h1 {
 .left-panel {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 0 40px;
 }
 .right-panel {
   display: flex;

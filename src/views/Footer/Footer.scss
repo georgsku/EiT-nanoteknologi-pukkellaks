@@ -1,8 +1,13 @@
 section.footer {
   background: var(--pink);
-  height: 150px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-top: 4px solid var(--purple);
+  position: relative;
+}
+.wave {
+  position: absolute;
+  bottom: 100%;
 }

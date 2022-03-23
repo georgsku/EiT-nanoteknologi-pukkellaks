@@ -1,4 +1,5 @@
 import './AboutUs.scss';
+import blob from '../../svg/blob.svg'
 
 function AboutUs() {
   const info = [
@@ -11,25 +12,26 @@ function AboutUs() {
     {navn: "Zaim⭐", desc: "4 klasse datateknologi. Elsker sushi"},
   ]
   return (
-    <div className='panels'>
+    <section className='center luftig narrow'>
       <div className="main-panel">
-        <h2>Om oss</h2>
+        <h1>Hvem er vi?</h1>
         <div className="AboutUs">
           {
             info.map((i) => 
-            <div>
+            <div className='about-card'>
                 <h3>
                   {i.navn}
                 </h3>
                 <p>
                   {i.desc}
                 </p>
+                <img src={blob} alt="" />
               </div>
             )
           }
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -6,14 +6,14 @@ section.sensors {
   }
 
   .animation-container {
-    width: 600px;
+    width: 640px;
     height: 400px;
     border-bottom: 4px solid var(--purple);
     position: relative;
     &::after {
       content: "";
       position: absolute;
-      width: 600px;
+      width: 640px;
       bottom: -14px;
       height: 10px;
       background-color: var(--blue);
@@ -133,14 +133,14 @@ section.sensors {
     width: auto;
     left: -10%;
     bottom: 200px;
-    animation: swim 20s 9.3s infinite linear, bounce 2s infinite;
+    animation: swimSensors 15s 9.3s infinite linear, bounce 1.8s infinite;
   }
   img.fish.blue {
     height: 40px;
     width: auto;
     left: -10%;
     bottom: 200px;
-    animation: swim 20s infinite linear, bounce 2s infinite;
+    animation: swimSensors 17s infinite linear, bounce 2.1s infinite;
   }
 }
 
@@ -178,7 +178,7 @@ section.sensors {
   }
 }
 
-@keyframes swim
+@keyframes swimSensors
 {
 	0% {margin-left: 0%; opacity:0;}
 	5% {margin-left: 5%; opacity: 1;}
