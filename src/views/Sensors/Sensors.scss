@@ -10,8 +10,6 @@ section.sensors {
     height: 400px;
     border-bottom: 4px solid var(--purple);
     position: relative;
-    overflow-x: hidden;
-    overflow-y: visible;
     &::after {
       content: "";
       position: absolute;
@@ -182,6 +180,8 @@ section.sensors {
 
 @keyframes swim
 {
-	0% {margin-left: 0px; opacity: 1;}
-	100% {margin-left: 100%; opacity: 1;}
+	0% {margin-left: 0%; opacity:0;}
+	5% {margin-left: 5%; opacity: 1;}
+	95% {margin-left: 95%; opacity: 1;}
+	100% {margin-left: 100%; opacity: 0;}
 }
