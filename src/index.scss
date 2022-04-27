@@ -35,13 +35,27 @@
   text-rendering: optimizeLegibility;
 }
 
-:root {
+ :root {
   --purple: #644E5B;
   --pink: #9E5A63;
   --red: #C96557;
   --light-blue: #97AABD;
   --blue: #314455;
-}
+} 
+
+/* :root {
+  --blue: #1964c7;
+  --dark-blue: #0e5167;
+  --green: #33A59F;
+  --black: #02192c;
+  --orange: #d59986;
+  --lighter-green: #52bec2;
+
+  
+  --red: #C96557;
+  --light-blue: #97AABD;
+  --blue: #314455;
+} */
 
 html {
   scroll-behavior: smooth;
@@ -65,7 +79,8 @@ body {
   margin: 0;
   padding: 0;
   //background-color: var(--blue);
-  background: linear-gradient(#314455, #1e2a34);
+  //background: linear-gradient(#0e5167, #06232d);
+  background: linear-gradient(#233B77, #0B1428);
   color: white;
   font-family: 'ThunderMed', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -190,11 +205,11 @@ h1 {
   z-index: 100;
   position: absolute;
   width: 20px;
-  bottom: -20px;
+  bottom: 0px;
   animation: bubbleUp 20s infinite linear;
 }
 
 @keyframes bubbleUp {
-  0% {margin-bottom: -20px;}
+  0% {margin-bottom: 0px;}
   100% {margin-bottom: 100%;}
 }

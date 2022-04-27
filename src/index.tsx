@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import HeroPage from './views/HeroPage/HeroPage';
+import Navbar from './views/Navbar/Navbar';
+import Ocean from './views/Ocean/Ocean';
 import Goals from './views/Goals/Goals'
 import Refrences from './views/Refrences/Refrences';
 import Biology from './views/Biology/Biology';
@@ -14,7 +16,8 @@ import bubble from './svg/bubble.svg';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HeroPage></HeroPage>
+    <Navbar></Navbar>
+    <Ocean></Ocean>
     <Goals></Goals>
     <Biology></Biology>
     <Sensors></Sensors>
