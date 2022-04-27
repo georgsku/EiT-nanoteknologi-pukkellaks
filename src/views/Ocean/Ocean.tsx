@@ -1,11 +1,8 @@
 import './Ocean.scss';
 import background from '../../svg/background.svg'
-import moon from '../../svg/moon.svg'
 import wave from '../../svg/wave.svg'
 
 function Ocean() {
-
-
 
   return (
     <section  className='ocean'>

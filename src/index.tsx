@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import HeroPage from './views/HeroPage/HeroPage';
 import Navbar from './views/Navbar/Navbar';
 import Ocean from './views/Ocean/Ocean';
 import Goals from './views/Goals/Goals'
