@@ -14,7 +14,8 @@ function AboutUs() {
   return (
     <section className='center luftig narrow'>
       <div className="main-panel">
-        <h1>Hvem er vi?</h1>
+        <h1>Dette er oss</h1>
+        <p>Vi er et tverrfaglig team som jobbe godt sammen for å bekjempe pukkellaksen.</p>
         <div className="AboutUs">
           {
             info.map((i) => 

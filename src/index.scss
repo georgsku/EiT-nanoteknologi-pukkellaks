@@ -35,6 +35,8 @@
   text-rendering: optimizeLegibility;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Roboto:wght@100;400;700&display=swap');
+
  :root {
   --purple: #644E5B;
   --pink: #9E5A63;
@@ -67,7 +69,8 @@ html {
 
 a, button {
   outline: none;
-  font-family: 'ThunderMed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  //font-family: 'ThunderMed', sans-serif;
 }
 
 a {
@@ -82,7 +85,8 @@ body {
   //background: linear-gradient(#0e5167, #06232d);
   background: linear-gradient(#233B77, #0B1428);
   color: white;
-  font-family: 'ThunderMed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  //font-family: 'ThunderMed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
@@ -90,8 +94,8 @@ body {
   position: relative;
 }
 p {
-  font-size: 16px;
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  //font-family: 'Verdana', sans-serif;
 }
 
 section {

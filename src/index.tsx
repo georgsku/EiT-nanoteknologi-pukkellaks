@@ -7,6 +7,7 @@ import Goals from './views/Goals/Goals'
 import Refrences from './views/Refrences/Refrences';
 import Biology from './views/Biology/Biology';
 import Sensors from './views/Sensors/Sensors';
+import Conclusion from './views/Conclusion/Conclusion';
 import Footer from './views/Footer/Footer';
 import AboutUs from './views/AboutUs/AboutUs';
 import reportWebVitals from './reportWebVitals';
@@ -20,6 +21,7 @@ ReactDOM.render(
     <Goals></Goals>
     <Biology></Biology>
     <Sensors></Sensors>
+    <Conclusion></Conclusion>
     <AboutUs></AboutUs>
     <Refrences></Refrences>
     <Fishtank></Fishtank>

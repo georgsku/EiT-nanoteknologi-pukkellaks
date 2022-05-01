@@ -8,5 +8,26 @@
         position: unset;
     }
 
+    .counter {
+        border: 2px solid white;
+        border-radius: 10px;
+        width: fit-content;
+        padding: 1em;
+        font-weight: 700;
+        p,h1 {
+            margin: 0;
+        
+        }
+      }
+      .narrow-l {
+          max-width:1200px;
+          margin: 2em auto;
+        }
+        
+        .narrow {
+          max-width: 900px;
+          margin: 2em auto;
+      }
+
 }
 
