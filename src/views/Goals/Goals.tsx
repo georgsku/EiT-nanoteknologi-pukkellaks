@@ -1,5 +1,4 @@
 import './Goals.scss';
-import stats from '../../svg/statistikk.svg'
 import lifecycle from '../../svg/lifecycle.svg'
 import timeline from '../../svg/timeline.svg'
 
