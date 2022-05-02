@@ -1,12 +1,21 @@
 import './Goals.scss';
 import stats from '../../svg/statistikk.svg'
 import lifecycle from '../../svg/lifecycle.svg'
+import timeline from '../../svg/timeline.svg'
 
 function Goals() {
+
+  function show2023() {
+    
+    const el = document.getElementById("toExpand")
+    console.log(el);
+    if (el) el.setAttribute("height", "2000px");
+  }
+
   return (
     <section className='goals luftig'>
       <div className="narrow-l">
-        <div className="super-narrow auto-center luftig">
+        <div className="super-narrow auto-center vision">
           <h1>Vår visjon</h1>
           <p> Prosjektets formål er å redusere negative virkninger av invasjonen av russisk pukkellaks i norske vassdrag ved hjelp av nanoteknologi</p>
         </div>
@@ -23,7 +32,7 @@ function Goals() {
         </div>
         <div className="panels">
           <div className="left-panel place-center">
-            <img src={stats} alt="" />
+            <img src={timeline} alt="" />
           </div>
           <div className="right-panel">
             <h1 id="why" >Hva er en pukkellaks og hvorfor er det et problem?</h1>
@@ -32,6 +41,7 @@ function Goals() {
             </p>
           </div>
         </div>
+        <br /><br /><br />
         <h1>Hvordan ser fremtiden ut?</h1>
         <div className="panels narrow">
           <div className="left-panel ">
@@ -40,7 +50,7 @@ function Goals() {
             </p>
           </div>
           <div className="right-panel place-center">
-            <div className='counter'>
+            <div className='counter' onClick={show2023}>
               <h1>700 000</h1>
               <p>PUKKELLAKS</p>
             </div>

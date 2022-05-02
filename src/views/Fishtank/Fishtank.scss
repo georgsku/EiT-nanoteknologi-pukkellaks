@@ -34,7 +34,7 @@ section.fishtank {
     height: 40px;
     width: auto;
     left: -10%;
-    animation: swim 20s infinite linear, bounce 2s infinite;
+    //animation: swim 20s infinite linear, bounce 2s infinite;
     user-select: none;
     position: absolute;
   }
@@ -43,7 +43,7 @@ section.fishtank {
     width: auto;
     right: -10%;
     transform: scale(-1, 1);
-    animation: swim 20s infinite reverse linear, bounceBlue 2s infinite;
+    //animation: swim 20s infinite reverse linear, bounceBlue 2s infinite;
     user-select: none;
   }
   img.fish.one {

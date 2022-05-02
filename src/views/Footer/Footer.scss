@@ -4,8 +4,11 @@ section.footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   border-top: 4px solid var(--purple);
   position: relative;
+
+  h3 {margin: 0;}
 }
 .wave-footer {
   position: absolute;

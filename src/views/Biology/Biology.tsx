@@ -4,7 +4,7 @@ import dna from '../../svg/dna.svg'
 function Biology() {
 
   return (
-    <section className="biology panels luftig">
+    <section className="biology panels luftig narrow-l center">
       <div className="left-panel">
         <h1>Kan bilogi detektere pukkellaks?</h1>
         <p>Pukkellaks sin livssyklus har en rekke fellestrekk med annen laks, som utviklingen fra ferskvanns- til saltvannsfisk, men har også markante forskjeller.
