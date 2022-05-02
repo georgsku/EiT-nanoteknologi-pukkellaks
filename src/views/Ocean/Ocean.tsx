@@ -1,7 +1,6 @@
 import './Ocean.scss';
 import background from '../../svg/background.svg'
 import wave from '../../svg/wave.svg'
-import fish from '../../svg/FishRed.svg'
 
 function Ocean() {
 
