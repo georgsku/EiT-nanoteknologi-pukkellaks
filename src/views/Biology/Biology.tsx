@@ -6,16 +6,14 @@ function Biology() {
   return (
     <section className="biology panels luftig narrow-l center">
       <div className="left-panel">
-        <h1>Kan bilogi detektere pukkellaks?</h1>
-        <p>Pukkellaks sin livssyklus har en rekke fellestrekk med annen laks, som utviklingen fra ferskvanns- til saltvannsfisk, men har også markante forskjeller.
-          De mest definerende trekkene til pukkellaks sin toårige livssyklus har å gjøre med dens raske smoltifisering, altså utvikling fra ferskvanns- til saltvannsfisk, og dens sære oppførsel under og etter gyting.
-
-          Under gyting blir pukkellaksrogn gravd ca. 20 cm under elvgrusen nær kantene av elven, og blir vanligvis liggende i 3-4 måneder.
-          Dybden de blir gravd ned i sørger både for beskyttelse mot økosystemet samt jevnere temperatur, som er viktig da tid fra gyting til klekking avhenger av temperaturen i omgivelsene.
-          Pukkellaks normalt krever 450-550 temperaturdøgn før de klekker, som blir beregnet som vist i formel.</p>
+        <h1>eDNA - Naturens merkelapp</h1>
+        <p>
+        Levende organismer avgir ulike DNA-spor i økosystemet de lever i, som for eksempel hudceller, avføring og lignende komponenter som inneholder organismes arvemateriale, DNA. eDNA-teknologi utnytter såkalte "assay" for å detektere disse DNA-sporene, som  brukes overvåkning av artsmangfoldet i naturen uten behov for fysisk observasjon av artene. Ved å ta i bruk et stabilt assay for pukkellaks kan vassdragene med mest pågang identifiseres tidlig, slik at fordeling av ressurser til å bekjempe pukkellaksproblemet skjer mest mulig effektivt.
+        </p>
       </div>
       <div className="right-panel place-center max-width">
-        <img src={edna} width="100%"alt="" />
+        <img src={edna} width="100%" alt="" />
+        <i>Minibåt med eDNA-teknologi om bord samler opp DNA-spor fra miljøet</i>
       </div>
     </section>
   );

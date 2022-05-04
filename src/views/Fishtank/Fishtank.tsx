@@ -37,12 +37,10 @@ function Fishtank() {
       <img onClick={playSound} className="fish four" src={fish} alt="" />
 
       <img onClick={playSound} className="fish one late" src={fish} alt="" />
-      <img onClick={playSound} className="fish two late" src={fish} alt="" />
       <img onClick={playSound} className="fish three late" src={fish} alt="" />
       <img onClick={playSound} className="fish four late" src={fish} alt="" />
 
       <img onClick={playSound} className="fish one late2" src={fish} alt="" />
-      <img onClick={playSound} className="fish two late2" src={fish} alt="" />
       <img onClick={playSound} className="fish three late2" src={fish} alt="" />
       <img onClick={playSound} className="fish four late2" src={fish} alt="" />
 
@@ -53,8 +51,6 @@ function Fishtank() {
 
       <img onClick={playSound} className="fish one late3" src={fish} alt="" />
       <img onClick={playSound} className="fish two late3" src={fish} alt="" />
-      <img onClick={playSound} className="fish three late3" src={fish} alt="" />
-      <img onClick={playSound} className="fish four late3" src={fish} alt="" />
 
       <img className="left" src={flower3} alt="" />
       <img className="center" src={flower2} alt="" />

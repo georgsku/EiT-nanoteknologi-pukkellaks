@@ -217,6 +217,15 @@ h1 {
   justify-content: center;
 }
 
+ul {
+  li { 
+    list-style-image: url('./svg/fishList.svg'); 
+    &::marker {
+      font-size: 1.2em;
+    }
+  } 
+}
+
 .bubble {
   z-index: 100;
   position: absolute;
