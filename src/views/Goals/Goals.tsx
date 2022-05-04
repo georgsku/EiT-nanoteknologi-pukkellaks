@@ -29,7 +29,7 @@ function Goals() {
             <img src={lifecycle} alt="" />
           </div>
         </div>
-        <div className="panels">
+        <div className="panels reverse-on-mobile">
           <div className="left-panel place-center">
             <img src={timeline} alt="" />
           </div>

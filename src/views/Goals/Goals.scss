@@ -3,7 +3,7 @@
     background-color: #233B77;
     position: relative;
     img {
-        max-width: 400px;
+        max-width: min(400px, 80vw);
         border-radius: 7px;
         position: unset;
     }
@@ -38,8 +38,8 @@
 
       .vision {
           margin: 2em auto;
-          width: 400px;
-          height: 400px;
+          width: min(400px, 80vw);
+          height: min(400px, 80vw);
           border: 2px solid white;
           border-radius: 50%;
           display: grid;
@@ -58,4 +58,11 @@
           }
       }
 }
+
+@media only screen and (max-width:500px) {
+
+    .goals {
+
+    }
+  }
 

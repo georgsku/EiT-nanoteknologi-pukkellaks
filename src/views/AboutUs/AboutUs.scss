@@ -46,3 +46,16 @@
     }
   }
 }
+
+@media only screen and (max-width:900px) {
+
+  .AboutUs {
+    display: flex;
+    flex-wrap: wrap;
+
+    .about-card {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}

@@ -22,7 +22,7 @@ section.sensors {
 
   .tube {
     overflow-y: hidden;
-    overflow-x: visible;
+    overflow-x: hidden;
     width: 250px;
     height: 130px;
     border-top: 2px solid var(--red);
@@ -185,3 +185,14 @@ section.sensors {
 	95% {margin-left: 95%; opacity: 1;}
 	100% {margin-left: 100%; opacity: 0;}
 }
+
+@media only screen and (max-width:900px) {
+
+  section.sensors {
+
+    .animation-container {
+      width: 90%;
+      overflow-x: hidden;
+    }
+  }
+} 

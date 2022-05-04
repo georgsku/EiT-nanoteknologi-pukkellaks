@@ -5,5 +5,15 @@ section.refrences {
     padding-left: 2.5em;
     margin-bottom: 1em;
     text-indent:-1.5em;
+    overflow-wrap: break-word;
+
   }
 }
+
+@media only screen and (max-width:900px) {
+
+  section.refrences {
+    padding: 0 1em;
+
+  }
+} 

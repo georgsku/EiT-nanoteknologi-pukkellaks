@@ -1,5 +1,5 @@
 import './Biology.scss';
-import dna from '../../svg/dna.svg'
+import edna from '../../svg/edna.png'
 
 function Biology() {
 
@@ -14,8 +14,8 @@ function Biology() {
           Dybden de blir gravd ned i sørger både for beskyttelse mot økosystemet samt jevnere temperatur, som er viktig da tid fra gyting til klekking avhenger av temperaturen i omgivelsene.
           Pukkellaks normalt krever 450-550 temperaturdøgn før de klekker, som blir beregnet som vist i formel.</p>
       </div>
-      <div className="right-panel place-center">
-        <img src={dna} width="300px"alt="" />
+      <div className="right-panel place-center max-width">
+        <img src={edna} width="100%"alt="" />
       </div>
     </section>
   );

@@ -2,6 +2,7 @@ section.fishtank {
   height: 40vh;
   position: relative;
   margin-bottom: 30px;
+  overflow-x: hidden;
 
   #counter {
     font-size: 20px;
@@ -177,3 +178,20 @@ section.fishtank {
 	0% {margin-left: -35px}
 	100% {margin-left: 110%;}
 }
+
+@media only screen and (max-width:900px) {
+
+  section.fishtank {
+    height: 40vh;
+    margin-bottom: 0;
+    img.left {
+      height: 50%;
+    }
+    img.center {
+      height: 50%;
+    }
+    img.right {
+      height: 50%;
+    }
+  }
+} 
