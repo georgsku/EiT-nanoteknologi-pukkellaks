@@ -8,7 +8,7 @@ function Biology() {
       <div className="left-panel">
         <h1>eDNA - Naturens merkelapp</h1>
         <p>
-        Levende organismer avgir ulike DNA-spor i økosystemet de lever i, som for eksempel hudceller, avføring og lignende komponenter som inneholder organismes arvemateriale, DNA. eDNA-teknologi utnytter såkalte "assay" for å detektere disse DNA-sporene, som  brukes overvåkning av artsmangfoldet i naturen uten behov for fysisk observasjon av artene. Ved å ta i bruk et stabilt assay for pukkellaks kan vassdragene med mest pågang identifiseres tidlig, slik at fordeling av ressurser til å bekjempe pukkellaksproblemet skjer mest mulig effektivt.
+          Levende organismer avgir ulike DNA-spor i økosystemet de lever i, som for eksempel hudceller, avføring og lignende komponenter som inneholder organismes arvemateriale, DNA. eDNA-teknologi tar i bruk såkalte "assay" som er konstruert for å detektere disse DNA-sporene.  Gjennom dette kan man overvåke artsmangfoldet i naturen uten behov for fysisk observasjon av artene. Ved å ta i bruk et stabilt assay for pukkellaks kan vassdragene med mest pågang identifiseres tidlig, slik at fordeling av ressurser til å bekjempe pukkellaksproblemet skjer mest mulig effektivt.
         </p>
       </div>
       <div className="right-panel place-center max-width">
